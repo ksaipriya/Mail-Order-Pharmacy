@@ -4,7 +4,15 @@ phases:
   build:
     commands:
       - java -version
+<<<<<<< HEAD
 artifacts:
   files:
     - '**/*'
   base-directory: 'drugservice'
+=======
+      - mvn package
+artifacts:
+  files:
+    - '**/*'
+  base-directory: 'drugservice'
+>>>>>>> 685abeb10b6b305b44da955688f5a9d93f44114a
