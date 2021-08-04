@@ -4,17 +4,13 @@ phases:
   install:
     runtime-versions:
       java: corretto11
-  pre_build:
-    commands:
-      - echo Nothing to do in the pre_build phase...
   build:
     commands:
-      - echo Build started on `date`
-      - mvn install
-  post_build:
-    commands:
-      - echo Build completed on `date`
+      - cd drugservice
+      - java -version
+      - mvn -version
 artifacts:
   files:
     - '**/*'
-    base-directory: 'drugservice'
+  discard-paths: yes
+  base-directory: 'drugservice'
