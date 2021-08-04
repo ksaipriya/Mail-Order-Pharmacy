@@ -71,7 +71,7 @@ body {
 
      
     <br><br><br><br><br><br>
-    <h1 class="center">Refill Status</h2>
+    <h1 class="center">Refill Status</h1>
 
   	<div class="center">
 			<c:choose>

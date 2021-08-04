@@ -75,7 +75,7 @@
 	<div class="containersubsbig">
 
 		<br> <br>
-		<h1 align="center" color><b>Your Refill</b></h1>
+		<h1 align="center" color>Your Refill</h1>
 		<h3 class="center">${message}</h3>
 		<div class="container bcontent">
 

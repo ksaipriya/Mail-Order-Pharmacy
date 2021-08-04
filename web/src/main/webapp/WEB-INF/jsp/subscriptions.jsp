@@ -65,7 +65,7 @@
     <div class="containersubsbig">
 			
 			 <br> <br>
-			<h2 align="center">Your Subscriptions</h2>
+			<h1 align="center">Your Subscriptions</h1>
 			<h3 class="center alrtmsg">${message}</h3>
 			  <div class="container bcontent"> 
 			
