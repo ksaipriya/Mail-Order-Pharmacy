@@ -8,7 +8,7 @@ phases:
     commands:
       - cd drugservice
       - java -version
-      - mvn package
+      - mvn -version
 artifacts:
   files:
     - '**/*'
