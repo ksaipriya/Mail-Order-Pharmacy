@@ -8,4 +8,3 @@ phases:
     files:
     - '**/*'
     base-directory: 'drugservice'
-© 2021 GitHub, Inc.
